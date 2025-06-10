@@ -1,0 +1,8 @@
+<h1>{{ pages.handle-de-una-pagina.title }}</h1>
+<h1>{{ pages["handle-de-una-pagina"].title  }}</h1>
+
+{% if pages["handle-de-una-pagina"].title != empty %}
+  <div class="tester"> {{ pages["handle-de-una-pagina"].title }} </div>
+{% endif %}
+
+{{-   -}}
